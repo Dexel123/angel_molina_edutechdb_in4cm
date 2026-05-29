@@ -2,7 +2,7 @@
 package org.angelmolina.view;
 
 import java.util.Scanner;
-import org.angelmolina.InstructorController.java;
+import org.angelmolina.controller.InstructorController;
 /**
  *
  * @author Usuario
@@ -81,4 +81,4 @@ public class MenuPrincipal {
 
 }
 
-}
+
