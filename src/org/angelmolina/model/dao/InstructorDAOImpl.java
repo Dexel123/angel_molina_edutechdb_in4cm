@@ -29,9 +29,9 @@ public List<Instructor> listar() {
          
         while(resultado.next()){
             instructores.add(new Instructor(
-                    resultado.getInt("dni_instructor"), // Asegúrate de que en tu BD la columna sea 'in_categoria' (o tal vez 'id_categoria')
-                    resultado.getString("nombre_isntructor"),
-                    resultado.getString("especialidad_isntructor")
+                    resultado.getInt("dni"), // Asegúrate de que en tu BD la columna sea 'in_categoria' (o tal vez 'id_categoria')
+                    resultado.getString("nombre"),
+                    resultado.getString("especialidad")
             ));
         }
         
