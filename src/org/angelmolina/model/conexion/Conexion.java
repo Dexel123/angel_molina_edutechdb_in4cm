@@ -7,7 +7,7 @@ public class Conexion {
     // String de conexion : URL, USER, PASSWORD -> Static
     private static final String URL = "jdbc:mysql://localhost:3306/EduTechdb_In4cm?serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "123";
+    private static final String PASSWORD = "angelpopo18";
 
     public static Connection conectar(){
         Connection conexion = null;
