@@ -8,12 +8,12 @@ public class InstructorView {
     private final Scanner leer = new Scanner(System.in);
     
     public int mostrarMenu() {
-        System.out.println("\n---GESTION DE CATEGORIAS---");
-        System.out.println("1. Registrar nueva categoria");    
-        System.out.println("2. Listar todas las categorias");    
-        System.out.println("3. Buscar una categoria");    
-        System.out.println("4. Actualizar una categoria");    
-        System.out.println("5. Eliminar una categoria");   
+        System.out.println("\n---GESTION DE INSTRUCTORES---");
+        System.out.println("1. Registrar nuevo Instructor");    
+        System.out.println("2. Listar todos los Instructores");    
+        System.out.println("3. Buscar un Instructor");    
+        System.out.println("4. Actualizar un Instructor");    
+        System.out.println("5. Eliminar un Instructor");   
         System.out.println("6. Regresar al menu principal");  
         System.out.println("Seleccione una opcion: ");  
         return Integer.parseInt(leer.nextLine());
