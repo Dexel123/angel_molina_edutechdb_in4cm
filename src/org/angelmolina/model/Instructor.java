@@ -10,16 +10,17 @@ package org.angelmolina.model;
  */
 public class Instructor {
     
-    private int dni_instructor;
+    private int dni_Instructor;
     private String nombreInstructor;
     private String especialidadInstructor;
-
-    public int getDni_instructor() {
-        return dni_instructor;
+    
+    public Instructor() {
     }
 
-    public void setDni_instructor(int dni_instructor) {
-        this.dni_instructor = dni_instructor;
+    public Instructor(int dni_Instructor, String nombreInstructor, String especialidadInstructor) {
+        this.dni_Instructor = dni_Instructor;
+        this.nombreInstructor = nombreInstructor;
+        this.especialidadInstructor = especialidadInstructor;
     }
 
     public String getNombreInstructor() {
@@ -30,6 +31,13 @@ public class Instructor {
         this.nombreInstructor = nombreInstructor;
     }
 
+    public int getDni_Instructor() {
+        return dni_Instructor;
+    }
+
+    public void setDni_Instructor(int dni_Instructor) {
+        this.dni_Instructor = dni_Instructor;
+    }
     public String getEspecialidadInstructor() {
         return especialidadInstructor;
     }
@@ -37,7 +45,6 @@ public class Instructor {
     public void setEspecialidadInstructor(String especialidadInstructor) {
         this.especialidadInstructor = especialidadInstructor;
     }
-
    
    
 }
